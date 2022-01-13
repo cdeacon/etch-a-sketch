@@ -1,0 +1,50 @@
+:root {
+  --primary-dark: #333;
+  --primary-light: #ededed;
+  --secondary-light: #fefefe;
+}
+
+body{
+  background: cornflowerblue;
+}
+
+h1{
+  font-family: monospace;
+  background: papayawhip;
+  padding: 8px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row{
+  display: flex;
+}
+
+.grid{
+  display: grid;
+  width: 500px;
+  height: 500px;
+  background-color: var(--secondary-light);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#clear{
+  display: block;
+  margin: auto;
+  font-size: 25px;
+  padding: 5px;
+  margin-top: 10px;
+}
