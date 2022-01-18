@@ -1,11 +1,11 @@
 :root {
   --primary-dark: #333;
   --primary-light: #ededed;
-  --secondary-light: #fefefe;
+  --secondary-light: #696969;
 }
 
 body{
-  background: cornflowerblue;
+  background: #EF0107;
 }
 
 h1{
